@@ -1,4 +1,4 @@
-package com.example.xr.ui;
+package com.example.tx.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,11 +11,11 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.xr.R;
-import com.example.xr.Util.DateUtil;
-import com.example.xr.Util.ViewUtil;
-import com.example.xr.bean.UserInfo;
-import com.example.xr.database.UserDBHelper;
+import com.example.tx.R;
+import com.example.tx.Util.DateUtil;
+import com.example.tx.Util.ViewUtil;
+import com.example.tx.bean.UserInfo;
+import com.example.tx.database.UserDBHelper;
 
 
 public class RegisterWriteActivity extends AppCompatActivity implements View.OnClickListener{

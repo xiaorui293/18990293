@@ -1,4 +1,4 @@
-package com.example.xr.ui;
+package com.example.tx.ui;
 
 
 import androidx.appcompat.app.AlertDialog;
@@ -23,8 +23,8 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.xr.R;
-import com.example.xr.Util.ViewUtil;
+import com.example.tx.R;
+import com.example.tx.Util.ViewUtil;
 
 // 主activity
 public class MainActivity extends AppCompatActivity {
@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    private String[] typeArray = {"个人用户", "公司用户", "肖芮18990293"};
+    private String[] typeArray = {"个人用户", "公司用户", "18990278-田蕊"};
     // 初始化下拉框
     private void initTypeSpinner() {
         // 声明一个下拉列表的数组适配器

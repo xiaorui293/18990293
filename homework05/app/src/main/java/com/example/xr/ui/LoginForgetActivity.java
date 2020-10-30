@@ -1,4 +1,4 @@
-package com.example.xr.ui;
+package com.example.tx.ui;
 
 
 import androidx.appcompat.app.AlertDialog;
@@ -11,8 +11,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.xr.R;
-import com.example.xr.database.UserDBHelper;
+import com.example.tx.R;
+import com.example.tx.database.UserDBHelper;
 
 public class LoginForgetActivity extends AppCompatActivity implements View.OnClickListener{
 

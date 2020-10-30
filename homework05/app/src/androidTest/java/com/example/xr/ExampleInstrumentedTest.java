@@ -1,4 +1,4 @@
-package com.example.xr;
+package com.example.tx;
 
 import android.content.Context;
 

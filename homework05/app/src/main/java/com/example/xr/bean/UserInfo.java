@@ -1,4 +1,4 @@
-package com.example.xr.bean;
+package com.example.tx.bean;
 
 public class UserInfo {
     public long rowid;
