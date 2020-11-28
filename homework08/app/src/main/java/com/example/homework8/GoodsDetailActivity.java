@@ -120,6 +120,6 @@ public class GoodsDetailActivity extends AppCompatActivity implements View.OnCli
 
     @Override
     public void onClick(View v) {
-
+        if
     }
 }
