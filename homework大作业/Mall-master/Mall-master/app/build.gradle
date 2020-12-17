@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
+
+    defaultConfig {
+        applicationId "com.wythe.mall"
+        minSdkVersion 16
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:2.0.4'
+    implementation 'in.srain.cube:ultra-ptr:1.0.11'
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    //noinspection GradleCompatible
+    compile 'com.android.support:appcompat-v7:23.+'
+    compile group: 'com.facebook.fresco', name: 'fresco', version: '0.11.0'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'com.github.lovetuzitong:MultiImageSelector:1.2'
+    compile 'com.youth.banner:banner:1.1.5'
+    compile 'com.zhy:okhttputils:2.6.2'
+    compile 'com.google.android.gms:play-services-gcm:16.1.0'
+    compile 'com.zhy:base-adapter:3.0.2'
+    compile 'com.squareup.okhttp3:okhttp:4.9.0'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.jakewharton:butterknife:8.5.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+}
